@@ -3,11 +3,14 @@
     "allow": [
       "Bash(npm test)"
     ],
-    "ask": [
-      "Bash(git push *)"
-    ],
     "deny": [
       "Read(./.env)"
+    ],
+    "ask": [
+      "Bash(git push *)"
     ]
+  },
+  "enabledPlugins": {
+    "frontend-design@anthropic-plugin-directory": true
   }
 }
